@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* CSS Document */
+
+header, section, footer, aside, nav, main, article, figure {
+    display: block; }
+
+.contenedor{ width:900px; height:; margin-top:20px; margin-left:auto; margin-right:auto;}
+header{ width:900px; height:60px; position:relative; background-color:;}
+.logo{ width:192px; height:60px; background-image:url(../imagenes/logo_header.jpg); background-repeat:no-repeat; float:left;}
+/*----------MENU-----------*/
+nav{ width:706px; height:60px; background-color:; margin-left:0px; float:left; overflow:hidden;}
+#lista_menu{ width:706px; height:60px; float:right; margin-top:0px; margin: 0 0 0 0; padding-left:0px;}
+#lista_menu li{ list-style:none; float:right; padding-left:2px;}
+#lista_menu li .b_ilustracion{ font-family:Arial, Helvetica, sans-serif; font-size:10pt; color:#FFF; text-decoration:none; text-align:center; padding-top:23px; width:115px; height:37px; background:url(../imagenes/img_fondo_botones.jpg)no-repeat; float:left;}
+#lista_menu li .b_diseno{ font-family:Arial, Helvetica, sans-serif; font-size:10pt; color:#FFF; text-decoration:none; text-align:center; padding-top:23px;width:115px; height:37px; background:url(../imagenes/img_fondo_botones.jpg) no-repeat; float:left;}
+#lista_menu li .b_cv{ font-family:Arial, Helvetica, sans-serif; font-size:10pt; color:#FFF; text-decoration:none; text-align:center; padding-top:23px;width:115px; height:37px; background:url(../imagenes/img_fondo_botones.jpg) no-repeat; float:left;}
+	/*---HOVER---*/
+#lista_menu li .b_ilustracion:hover{ color:#17DBFF;}
+#lista_menu li .b_diseno:hover{ color:#17DBFF;}
+#lista_menu li .b_fotografia:hover{ color:#17DBFF;}
+#lista_menu li .b_cv:hover{ color:#17DBFF;}
+#lista_menu li .b_facebook:hover{ color:#17DBFF;}
+/*-------FIN MENU----*/
+
+/*-------COMENT-DATOS----------*/
+.coment{ width:900px; height:46px; background-color:; position:relative;}
+h1{ width:790px; height:46px; font-family:Arial, Helvetica, sans-serif; font-size:10.5pt; color:#FFF; font-weight:lighter; margin:0 0 0 0; padding-right:0px; padding-left:10px; padding-top:15px; overflow:hidden;}
+/*-------FIN COMENT-DATOS----------*/
+section{ width:900px; height:; display:block; position:relative; background-color:; padding-top:20px;border-top-style:solid; border-top-color:#F36; border-top-width:thin; border-top-color:#FF0098;}
+section a { outline:none;}
+
+/*-------THUMBS----------*/
+.thumb_principal{ width:900px; height:514px; margin-top:15px;}
+.thumb_izq_lineadetres{ width:283px; height:242px; margin-top:15px; float:left;}
+.thumb_lineadetres{ width:283px; height:242px; margin-top:15px; float:left; margin-left:25px;}
+.thumb_izq_lineadedos{width:438px; height:514px; margin-top:15px;float:left;}
+.thumb_lineadedos{width:438px; height:514px; margin-top:15px;margin-left:20px;}
+/*-------FIN THUMBS----------*/
+
+footer{ width:900px; height:; display:inline-block; margin-top:20px;}
+#menu_pie{width:900px; height:30px;list-style:none; padding:15px 0 0 0; border-top-style:solid; border-top-color:#F36;border-top-width:thin; border-top-color:#FF0098; }
+#menu_pie li{ float:left;}
+#menu_pie li .b_pie_ilustracion{ font-family:Arial, Helvetica, sans-serif; font-size:11pt; color:#FFF; font-weight:lighter; text-decoration:none; margin-right:50px;} 
+#menu_pie li .b_pie_diseno{ font-family:Arial, Helvetica, sans-serif; font-size:11pt; color:#FFF; font-weight:lighter; text-decoration:none; margin-right:50px;}
+#menu_pie li .b_pie_fotografia{ font-family:Arial, Helvetica, sans-serif; font-size:11pt; color:#FFF; font-weight:lighter; text-decoration:none;}
+#menu_pie li .b_pie_ilustracion:hover{ font-family:Arial, Helvetica, sans-serif; font-size:11pt; color:#17DBFF; font-weight:lighter; text-decoration:none; margin-right:50px;} 
+#menu_pie li .b_pie_diseno:hover{ font-family:Arial, Helvetica, sans-serif; font-size:11pt; color:#17DBFF; font-weight:lighter; text-decoration:none; margin-right:50px;}
+#menu_pie li .b_pie_fotografia:hover{ font-family:Arial, Helvetica, sans-serif; font-size:11pt; color:#17DBFF; font-weight:lighter; text-decoration:none;}
+
+figure{ width:900px; height:; position:relative; margin:0 0 0 0;}
+figcaption{ font-family:Arial, Helvetica, sans-serif; font-size:11pt; color:#FFF; text-align:center; margin-top:15px;}
